@@ -12,29 +12,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5957b92ac2353c31a2666af0700a60520566348d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_877a55348c0ae0ac3b716558c5e2f2adc21bbfc4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="ce1b80366f7230edbf1274f5758e35d27555ea23">
+        sha1="074cc0b00fafdd8da98299d8e63077362af65c47">
         <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_642c818ccb8daad93ee8a7981a6efd2b60c9addf/classes.dex" />
     </item>
     <item
@@ -48,30 +30,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_b658f980fd38841370318e059a0c3568fd692279/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
         <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_e8c871b78b7c0e187e6bd74326e296aed90ccb52/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="49c7b6b8fcf81701bfd7ff8dfdf77b07ab3e705b">
-        <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_99ec29a387f59224be58d52023a4ff1beafaf7c3/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,21 +66,57 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_a54b9e5028fd05ba8e7007b1d4031ec4dc62a117/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_e0f16da2b9d8e4849d1a66f072f36056f74827b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5957b92ac2353c31a2666af0700a60520566348d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_877a55348c0ae0ac3b716558c5e2f2adc21bbfc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_b658f980fd38841370318e059a0c3568fd692279/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d6dbacd2d095655d67491fa7b0551a0f83974890">
+        <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_99ec29a387f59224be58d52023a4ff1beafaf7c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/fjruiz/AndroidStudioProjects/PruebasMayores/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_a54b9e5028fd05ba8e7007b1d4031ec4dc62a117/classes.dex" />
     </item>
     <item
         is-multidex="true"
