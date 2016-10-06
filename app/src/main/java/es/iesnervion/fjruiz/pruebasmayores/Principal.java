@@ -40,7 +40,10 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         alde=(Button) findViewById(R.id.alineade);
         alde.setOnClickListener(this);
 
-        //disminuir
+        disminuir=(Button) findViewById(R.id.reduce);
+        disminuir.setOnClickListener(this);
+        aumentar=(Button) findViewById(R.id.aumenta);
+        aumentar.setOnClickListener(this);
     }
 
     public void onClick(View v){
@@ -58,6 +61,14 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
             case R.id.alineade:
                 et3.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
                 return;
+
+            case R.id.aumenta:
+                et3.setTextSize(et3.getTextSize()+1);
+                return;
+
+
+            case R.id.reduce:
+                et3.setTextSize(et3.getTextSize()-1);
         }
     }
 
