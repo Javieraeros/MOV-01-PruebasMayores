@@ -13,10 +13,11 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class Principal extends AppCompatActivity implements View.OnClickListener
-                                                            ,RadioGroup.OnCheckedChangeListener{
+        , RadioGroup.OnCheckedChangeListener {
 
-    Button sum,aliz,alde,disminuir,aumentar;
-    EditText et1,et2,et3;
+    Button sum, aliz, alde, disminuir, aumentar;
+    Button atras, siguiente;
+    EditText et1, et2, et3;
     TextView tv;
     RadioGroup rg;
 
@@ -24,32 +25,37 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
-        sum=(Button) findViewById(R.id.button);
+        sum = (Button) findViewById(R.id.button);
         sum.setOnClickListener(this);
-        et1=(EditText) findViewById(R.id.editText);
-        et2=(EditText) findViewById(R.id.editText2);
-        tv=(TextView) findViewById(R.id.Resultado);
+        et1 = (EditText) findViewById(R.id.editText);
+        et2 = (EditText) findViewById(R.id.editText2);
+        tv = (TextView) findViewById(R.id.Resultado);
 
 
-        rg=(RadioGroup) findViewById(R.id.rg);
+        rg = (RadioGroup) findViewById(R.id.rg);
         rg.setOnCheckedChangeListener(this);
-        et3=(EditText) findViewById(R.id.editText3);
+        et3 = (EditText) findViewById(R.id.editText3);
 
-        aliz=(Button) findViewById(R.id.alineaiz);
+        aliz = (Button) findViewById(R.id.alineaiz);
         aliz.setOnClickListener(this);
-        alde=(Button) findViewById(R.id.alineade);
+        alde = (Button) findViewById(R.id.alineade);
         alde.setOnClickListener(this);
 
-        disminuir=(Button) findViewById(R.id.reduce);
+        disminuir = (Button) findViewById(R.id.reduce);
         disminuir.setOnClickListener(this);
-        aumentar=(Button) findViewById(R.id.aumenta);
+        aumentar = (Button) findViewById(R.id.aumenta);
         aumentar.setOnClickListener(this);
+
+        atras = (Button) findViewById(R.id.atrás);
+        atras.setOnClickListener(this);
+        siguiente = (Button) findViewById(R.id.siguiente);
+        siguiente.setOnClickListener(this);
     }
 
-    public void onClick(View v){
+    public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button:
-                Double res=Double.parseDouble(et1.getText().toString())
+                Double res = Double.parseDouble(et1.getText().toString())
                         +
                         Double.parseDouble(et2.getText().toString());
                 tv.setText(res.toString());
@@ -63,17 +69,21 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
                 return;
 
             case R.id.aumenta:
-                et3.setTextSize(et3.getTextSize()+1);
+                et3.setTextSize(0, et3.getTextSize() + 1);
                 return;
 
-
             case R.id.reduce:
-                et3.setTextSize(et3.getTextSize()-1);
+                et3.setTextSize(0, et3.getTextSize() - 1);
+                return;
+
+            case R.id.atrás:
+
+                return;
         }
     }
 
-    public void onCheckedChanged(RadioGroup rg,int i){
-        switch (i){
+    public void onCheckedChanged(RadioGroup rg, int i) {
+        switch (i) {
             case R.id.rbVerde:
                 et3.setTextColor(Color.GREEN);
                 return;
