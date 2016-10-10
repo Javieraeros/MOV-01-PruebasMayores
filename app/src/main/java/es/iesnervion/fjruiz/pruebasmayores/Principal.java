@@ -1,6 +1,7 @@
 package es.iesnervion.fjruiz.pruebasmayores;
 
 import android.graphics.Color;
+import android.media.Image;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -20,6 +22,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
     EditText et1, et2, et3;
     TextView tv;
     RadioGroup rg;
+    ImageView fotos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +53,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         atras.setOnClickListener(this);
         siguiente = (Button) findViewById(R.id.siguiente);
         siguiente.setOnClickListener(this);
+        fotos=(ImageView) findViewById(R.id.imagen);
     }
 
     public void onClick(View v) {
@@ -77,7 +81,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
                 return;
 
             case R.id.atrás:
-
+                //fotos.setImageResource();
                 return;
         }
     }

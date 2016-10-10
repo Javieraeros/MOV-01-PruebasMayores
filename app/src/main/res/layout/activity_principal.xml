@@ -138,7 +138,8 @@
                 android:layout_height="500px"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/reduce"
-                android:src="@color/colorAccent"/>
+                android:scaleType="fitXY"
+                android:adjustViewBounds="false" />
 
             <Button
                 android:id="@+id/atrás"
